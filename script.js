@@ -30,3 +30,26 @@ function area(){
     document.getElementById('resultado4').innerText = num7*num8/2
     console.log(num7*num8/2)
 }
+function areaq(){
+    let num9
+    num9 = parseInt (document.getElementById('9').value)
+    document.getElementById('resultado5').innerText = num9*num9
+    console.log(num9*num9)
+}
+function arear(){
+    let num10
+    let num11
+    num10 = parseInt (document.getElementById('10').value)
+    num11 = parseInt (document.getElementById('11').value)
+    document.getElementById('resultado6').innerText = num10*num11
+    console.log(num10*num11)
+}
+function areat(){
+    let num12
+    let num13
+    num12 = parseInt (document.getElementById('12').value)
+    num13 = parseInt (document.getElementById('13').value)
+    num14 = parseInt (document.getElementById('14').value)
+    document.getElementById('resultado7').innerText = (num12+num13)*num14
+    console.log((num12+num13)*num14)
+}
