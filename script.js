@@ -47,9 +47,18 @@ function arear(){
 function areat(){
     let num12
     let num13
+    let num14
     num12 = parseInt (document.getElementById('12').value)
     num13 = parseInt (document.getElementById('13').value)
     num14 = parseInt (document.getElementById('14').value)
     document.getElementById('resultado7').innerText = (num12+num13)*num14
+    console.log((num12+num13)*num14)
+}
+function areal(){
+    let num15
+    let num16
+    num15 = parseInt (document.getElementById('15').value)
+    num16 = parseInt (document.getElementById('16').value)
+    document.getElementById('resultado8').innerText = num15*num16/2
     console.log((num12+num13)*num14)
 }
