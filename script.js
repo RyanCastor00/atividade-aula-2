@@ -51,12 +51,66 @@ function areat(){
     num12 = parseInt (document.getElementById('12').value)
     num13 = parseInt (document.getElementById('13').value)
     num14 = parseInt (document.getElementById('14').value)
-    document.getElementById('resultado7').innerText = (num12+num13)*num14
-    console.log((num12+num13)*num14)
+    document.getElementById('resultado7').innerText = (num12*num13) / 2
+    console.log(((num12+num13)*num14) / 2)
+}
+function areal(){
+    let num15
+    let num16
+    num15 = parseInt (document.getElementById('15').value)
+    num16 = parseInt (document.getElementById('16').value)
+    document.getElementById('resultado8').innerText = (num15*num15)*(num16)
+    console.log((num15*num15)*(num16))
+   
 }
 function areac(){
     let num17
     num17 = parseInt (document.getElementById('17').value)
     document.getElementById('resultado9').innerText = (3.14)*(num17*num17)
-    console.log(3.14*num17)
+    console.log((3.14)*(num17*num17))
+}
+
+function areas(){
+    let num18
+    let num19
+    num18 = parseInt(document.getElementById('18').value)
+    num19 = parseInt(document.getElementById('19').value)
+    document.getElementById('resultado10').innerText = (num18 * 360) * 3.14 * (num19 * num19)
+    console.log((num18 * 360) * 3.14 * (num19 * num19))
+}
+
+function areaCe(){
+    let num20
+    let num21
+    num20 = parseInt(document.getElementById('20').value)
+    num21 = parseInt(document.getElementById('21').value)
+    document.getElementById('resultado11').innerText = 3.14 * (num20 * num20) - (num21 * num21)
+    console.log(3.14 * (num20 * num20) - (num21 * num21))
+}
+
+function areae(){
+    let num22
+    let num23
+    num22 = parseInt(document.getElementById('22').value)
+    num23 = parseInt(document.getElementById('23').value)
+    document.getElementById('resultado12').innerText = 3.14 * num22 * num23
+    console.log(3.14 * num22 * num23)
+}
+
+function areap(){
+    let num24
+    let num25
+    num24 = parseInt(document.getElementById('24').value) // Base
+    num25 = parseInt(document.getElementById('25').value) // Altura
+    document.getElementById('resultado13').innerText = num24 * num25
+    console.log(num24 * num25)
+}
+
+function areaPo(){
+    let num26
+    let num27
+    num26 = parseInt(document.getElementById('26').value) // Semiperímetro
+    num27 = parseInt(document.getElementById('27').value) // Apótema
+    document.getElementById('resultado14').innerText = num26 * num27
+    console.log(num26 * num27)
 }
