@@ -7,7 +7,7 @@ h1 {
 }
 
 #espanhol {
-    color:blueviolet
+    color: blueviolet
 }
 
 .display {
@@ -23,12 +23,62 @@ h1 {
 }
 
 .flex {
-display: flex;
-flex-direction: row;
-text-align: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
 }
 
 .row {
     background-color: blueviolet;
+    text-align: center;
+}
+
+.row1 {
+    background-color: rgb(43, 183, 226);
+    text-align: center;
+}
+
+.row2 {
+    background-color: rgb(43, 226, 165);
+    text-align: center;
+}
+
+.row3 {
+    background-color: rgb(226, 162, 43);
+    text-align: center;
+}
+
+.row4 {
+    background-color: rgb(24, 158, 151);
+    text-align: center;
+}
+
+.row5 {
+    background-color: rgb(61, 90, 7);
+    text-align: center;
+}
+
+.row6 {
+    background-color: rgb(238, 94, 94);
+    text-align: center;
+}
+
+.row7 {
+    background-color: rgb(93, 175, 130);
+    text-align: center;
+}
+
+.row8 {
+    background-color: rgb(10, 52, 65);
+    text-align: center;
+}
+
+.row9 {
+    background-color: rgb(208, 226, 43);
+    text-align: center;
+}
+
+.row10 {
+    background-color: rgb(71, 224, 79);
     text-align: center;
 }
